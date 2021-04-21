@@ -1,0 +1,28 @@
+program to draw pictures like (https://raw.githubusercontent.com/LingDong-/linedraw/master/screenshots/1.png?raw=true), using lines 
+
+It has 2 modes:
+1. add 
+2. edit
+
+// how to run
+
+1) Open terminal in the folder of project and run command `make` , it will compile all needed files with libraries.
+
+2) to open screen for drawing , run ./linedraw <width> <height> (specifie size of screen)
+
+3) It opens in add mode , just click to add a point and click again to another point to connect them in a line
+
+
+keys:
+
+*add mode
+
+- `backspace` to delete last vertex
+- `enter` to switch to edit mode
+
+* edit mode
+
+- `backspace` to delete selected vertex
+- `i` to add vertex in the middle of selected line
+- `n` to switch to add mode
+- `arrow keys` to move selected vertex
